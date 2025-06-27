@@ -1,0 +1,39 @@
+{
+  "idfield": "idcrm_lead",
+  "grid": {
+    "idcrm_lead": "Lead",
+    "ativos_enviados": "Ativos",
+    "lidos": "Lidos",
+    "nao_lidos": "Ignorados"
+  },
+  "field": [
+    {
+      "data": "idcrm_lead",
+      "ds_atributo": "ID da Lead Atual",
+      "campo": "idcrm_lead",
+      "tipo": "texto",
+      "desabilitado": true
+    },
+    {
+      "data": "ativos_enviados",
+      "ds_atributo": "Quantos Ativos Foram Enviados para o Cliente",
+      "campo": "ativos_enviados",
+      "tipo": "texto",
+      "desabilitado": true
+    },
+    {
+      "data": "lidos",
+      "ds_atributo": "Quantos dos Ativos Enviados Foram visualizados",
+      "campo": "lidos",
+      "tipo": "texto",
+      "desabilitado": true
+    },
+    {
+      "data": "nao_lidos",
+      "ds_atributo": "Quantos dos Ativos Enviados Foram Ignorados",
+      "campo": "nao_lidos",
+      "tipo": "texto",
+      "desabilitado": true
+    }
+  ]
+}
